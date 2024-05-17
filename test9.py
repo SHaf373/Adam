@@ -197,9 +197,10 @@ I'm also super fast! Let's start our conversation!
              
             autoplay_audio("sound1.mp3")
             # st.audio(sound1, format="audio/mp3", start_time=0, autoplay=True)  
-            chat_history_display += f"<div style='background-color: #0073cf; color:white;border-radius: 8px; padding: 5px;'><b style='margin-left: 20px;'>You:</b> <span style='margin-left: 20px;'>{msg['human']}</span></div>"
+            chat_history_display += f"<div><b style='margin-left: 10px;'>You:</b></div><div style='background-color: #0073cf; color:white;border-radius: 8px; padding: 5px;margin-right: 30%;'><span style='margin-left: 20px;'>{msg['human']}</span></div>"
             autoplay_audio2("sound2.mp3")
-            chat_history_display += f"<div style='background-color: black; color:white;border-radius: 8px; padding: 5px;'><b style='margin-left: 20px;'>Adam:</b> <span style='margin-left: 20px;'>{msg['AI']}</span></div><br>"
+            chat_history_display += f"<div style='text-align: right;'><b style='margin-left: 10px;'>Adam:</b></div><div style='background-color: black; color:white;border-radius: 8px; padding: 5px; margin-left: 30%;;'><span style='margin-right: 20px;'>{msg['AI']}</span></div><br>"
+            
             
         chat_history_display += "</div>"
         
