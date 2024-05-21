@@ -16,7 +16,7 @@ from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
 
 st.set_page_config(
-    page_title="Adam",
+    page_title="OISON",
     
 )
 def autoplay_audio(file_path: str):
@@ -100,15 +100,15 @@ def main():
     #    st.image('groqcloud_darkmode.png')
 
     # The title and greeting message of the Streamlit application
-    st.title("Mr.Adam")
+    st.title("Mr.OISON")
     st.markdown("""
- Hello! I'm your friendly counsellor Adam.
+ Hello! I'm OISON.
  I can help answer your questions about any of the following topics:
 - **Mental Health**
 - **Business Health**
 - **Investment Health**
 
-I'm also super fast! Let's start our conversation!
+
 """)
 
 
